@@ -1,3 +1,3 @@
 # resume
 
-stuff I use to serve my resume at [https://resume.adrianosela.com](https://resume.adrianosela.com)
+stuff I use to host my resume on Google App Engine, served at [https://resume.adrianosela.com](https://resume.adrianosela.com)
