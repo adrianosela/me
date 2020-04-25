@@ -1,7 +1,8 @@
-runtime: go114
+runtime: go113
 
 handlers:
-  - url: /.*
+  - url: /
+    upload: resume.pdf
+    static_files: resume.pdf
     secure: always
     redirect_http_response_code: 301
-    script: auto
