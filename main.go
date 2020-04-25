@@ -11,9 +11,9 @@ const (
 	defaultPort = ":80"
 )
 
-func servePDF(pdf string) http.Handler {
+func serveFile(file string) http.Handler {
 	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		http.ServeFile(w, r, pdf)
+		http.ServeFile(w, r, file)
 	})
 }
 
@@ -24,7 +24,7 @@ func main() {
 	if port == "" {
 		port = defaultPort
 	}
-	err := http.ListenAndServe(port, servePDF(resume))
+	err := http.ListenAndServe(port, serveFile(resume))
 	if err != nil {
 		log.Fatal(err)
 	}
