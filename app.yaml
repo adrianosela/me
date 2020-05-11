@@ -1,5 +1,8 @@
 runtime: go113
 
+env_variables:
+  FILENAME: resume.pdf
+
 handlers:
   - url: /
     upload: resume.pdf
