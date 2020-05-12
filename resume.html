@@ -25,43 +25,96 @@
 
 <h5>Motivated Computer Engineering graduate; passionate for learning. Experienced with ownership of globally distributed full stack services including the network, DNS, monitoring and logging, the platform, the API &amp; CLI code bases, documentation, and the infrastructure pieces that live in cloud providers.</h5>
 
-<h6>[ <a href="https://resume.adrianosela.com">resume.adrianosela.com</a> ] . [ adriano.selaviles@gmail.com ] . [ 778 681 3106 ]</h6>
+<h6>[ adriano.selaviles@gmail.com ] . [ 778 681 3106 ]</h6>
 
 <h2>Skills</h2>
 
-<p><strong>Programming:</strong> blah blah blah</p>
+<p><strong>Scripting:</strong> Bash (+ awk/sed/grep), Makefile, Python</p>
 
-<p><strong>Systems Engineering:</strong> blah blah blah</p>
+<p><strong>Programming:</strong> Go, Java, C/C++, Python</p>
 
-<p><strong>Embedded Systems:</strong> blah blah blah</p>
+<p><strong>Systems &amp; Infrastructure:</strong> Docker (+ docker-compose), Kubernetes, Terraform, Vagrant, AWS EC2 and Google Compute Engine</p>
+
+<p><strong>Networking:</strong> TCP/IP, DNS, TLS, BGP, in-depth understanding of the OSI structure, Linux implementation of TCP/IP suite, Berkeley Packet Filter (BPF), and experience writing reliable data transport protocols (i.e. a self-written TCP)</p>
+
+<p><strong>Cloud Computing &amp; Services:</strong> Experience with all of AWS, GCP, and Azure, microservice architecture design, serverless (i.e. AWS Lambda, GCP Cloud Functions</p>
+
+<p><strong>Version Control &amp; CI/CD:</strong> Git, self-hosted Jenkins, Concourse</p>
+
+<p><strong>Identity &amp; Access Management:</strong> IAM flows (i.e. OAuth2.0, SAML), experience writing OpenID Connect identity providers and integrating with AWS IAM</p>
+
+<p><strong>Security:</strong> Deep understanding of symmetric and asymmetric key encryption, block ciphers, hashing functions, key sharing (e.g. elliptic curve Diffie-Hellman), experience writing public key infrastructures (PKIs). Attended internal Cisco R00tcamp - an intensive 7-day bootcamp on Kali Linux tools (e.g. Metasploit framework)</p>
 
 <h2>Experience</h2>
 
 <p><strong>Operations Security Intern, Mozilla Corporation</strong> (May 2019 - Sept. 2019, San Francisco CA)</p>
 
 <ul>
-<li>blah blah blah</li>
+<li>Apache Beam pipeline and cloud architecture design for processing AWS GuardDuty and GCP Event Threat Detection findings as part of the <a href="https://github.com/mozilla-services/foxsec-pipeline">FoxSec pipeline</a>, a collection of data processing Beam pipelines which alert on relevant threats to Firefox Infrastructure.</li>
 </ul>
+
+<blockquote>
+<p>Technologies: Java 9, Apache Beam SDK, Terraform, AWS {GuardDuty, CloudWatch, Kinesis}, GCP {Event Threat Detection, StackDriver, Pub/Sub}, Google Cloud Dataflow.</p>
+</blockquote>
+
+<ul>
+<li>Client library and CLI for <a href="https://github.com/mozilla-services/iprepd">IPrepd</a>, an Open-Source IP reputation daemon. Small additions to <a href="https://github.com/mozilla/sops">SOPS</a>, a secrets management solution.</li>
+</ul>
+
+<blockquote>
+<p>Technologies: Go</p>
+</blockquote>
 
 <p><strong>Cloud Infra. Engineering Intern, Cisco Systems Inc.</strong> (May 2017 - Sept. 2018, Vancouver BC)</p>
 
 <ul>
-<li>blah blah blah</li>
+<li>Collaborately built Vinz, a PKI for provisioning Cisco servers with SSL certificates via programmatic API calls. The API is capable of delivering certificates and metadata within seconds of a sequest.</li>
 </ul>
+
+<blockquote>
+<p>Technologies: Go, DNS in depth, internal platforms and tooling</p>
+</blockquote>
+
+<ul>
+<li>Implemented an OpenID Connect identity provider in Golang and integrated it with AWS IAM (so as to provision new accounts for employees) as well as several other internal services which consumed our JSON web token</li>
+</ul>
+
+<blockquote>
+<p>Technologies: Go, OpenID, AWS {IAM, DynamoDB, Lambda}, Terraform, Docker + Kubernetes, internal platforms and tooling</p>
+</blockquote>
+
+<ul>
+<li>Designed and implemented a high availability (HA) solution for multiplexing DNS among multiple redundant servers in accordance to frequent service healthchecks.</li>
+</ul>
+
+<blockquote>
+<p>Technologies: Go, AWS {Route53, CloudWatch, Lambda}</p>
+</blockquote>
+
+<ul>
+<li>Migrated builds and deployments from a legacy Jenkins server to Concourse</li>
+</ul>
+
+<blockquote>
+<p>Technologies: Jenkins, Councourse, AWS, internal platforms and tooling</p>
+</blockquote>
 
 <h2>Projects</h2>
 
 <ul>
-<li><a href="https://github.com/adrianosela/spoof"><strong>spoof</strong></a> - A command line utility for injecting spoofed frames into a network <a href="https://godoc.org/github.com/adrianosela/spoof"><img src="https://godoc.org/github.com/adrianosela/spoof?status.svg" alt="Documentation" /></a></li>
-<li><a href="https://github.com/adrianosela/sslmgr"><strong>sslmgr</strong></a> - A layer of abstraction the around acme/autocert certificate manager <a href="https://godoc.org/github.com/adrianosela/sslmgr"><img src="https://godoc.org/github.com/adrianosela/sslmgr?status.svg" alt="Documentation" /></a> <a href="https://github.com/avelino/awesome-go#security"><img src="https://awesome.re/mentioned-badge.svg" alt="Mentioned in Awesome Go" /></a></li>
+<li><a href="https://github.com/adrianosela/iprepd-firewall"><strong>iprepd-firewall</strong></a> - seamless IP reputation based application-layer firewall for services written in Go <a href="https://godoc.org/github.com/adrianosela/iprepd-firewall/fwmw"><img src="https://godoc.org/github.com/adrianosela/iprepd-firewall?status.svg" alt="Documentation" /></a></li>
+<li><a href="https://github.com/adrianosela/padl"><strong>padl</strong></a> - secrets management as-a-service API <a href="https://godoc.org/github.com/adrianosela/padl"><img src="https://godoc.org/github.com/adrianosela/padl?status.svg" alt="Documentation" /></a></li>
+<li><a href="https://github.com/adrianosela/spoof"><strong>spoof</strong></a> - command line utility for injecting spoofed frames into a network <a href="https://godoc.org/github.com/adrianosela/spoof"><img src="https://godoc.org/github.com/adrianosela/spoof?status.svg" alt="Documentation" /></a></li>
+<li><a href="https://github.com/adrianosela/sslmgr"><strong>sslmgr</strong></a> - layer of abstraction the around acme/autocert certificate manager <a href="https://godoc.org/github.com/adrianosela/sslmgr"><img src="https://godoc.org/github.com/adrianosela/sslmgr?status.svg" alt="Documentation" /></a> <a href="https://github.com/avelino/awesome-go#security"><img src="https://awesome.re/mentioned-badge.svg" alt="Mentioned in Awesome Go" /></a></li>
 </ul>
 
 <h2>Education</h2>
 
-<p><strong>BASC in Computer Engineering, University of British Columbia University</strong> (2015-2020)</p>
+<p><strong>BASC in Computer Engineering, University of British Columbia University</strong> (2015-2020, Vancouver BC)</p>
 
 <ul>
-<li>blah blah blah</li>
+<li>Dean&rsquo;s Honour List all 4 years</li>
+<li>Coop Status: completed <sup>4</sup>&frasl;<sub>4</sub> (mandatory) work terms + 1 (additional) work term</li>
 </ul>
 
 		</article>
