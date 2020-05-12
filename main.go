@@ -17,11 +17,9 @@ func main() {
 		port = defaultPort
 	}
 
-
 	// set in app.yaml for Google App Engine,
 	// or in ENV when running locally
 	filename := os.Getenv("FILENAME")
-
 	var h http.Handler
 	switch filepath.Ext(filename) {
 	case ".md":
