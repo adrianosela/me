@@ -24,9 +24,7 @@ func main() {
 	switch filepath.Ext(filename) {
 	case ".md":
 		h = mdHandler(filename)
-	case ".pdf":
-		h = fileHandler(filename)
-	default:
+	default: // { ".html" , ".pdf" }
 		h = fileHandler(filename)
 	}
 

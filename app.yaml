@@ -1,11 +1,11 @@
 runtime: go113
 
 env_variables:
-  FILENAME: resume.pdf
+  FILENAME: resume.md
 
 handlers:
   - url: /
-    upload: resume.pdf
-    static_files: resume.pdf
+    upload: resume.md
+    static_files: resume.md
     secure: always
     redirect_http_response_code: 301
