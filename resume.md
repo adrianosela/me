@@ -25,8 +25,8 @@ Experience
 
 Projects
 ------
-- [**Spoof**](https://github.com/adrianosela/spoof) - A command line utility for injecting spoofed frames into a network [![Documentation](https://godoc.org/github.com/adrianosela/spoof?status.svg)](https://godoc.org/github.com/adrianosela/spoof)
-- [**SSLmgr**](https://github.com/adrianosela/sslmgr) - A layer of abstraction the around acme/autocert certificate manager [![Documentation](https://godoc.org/github.com/adrianosela/sslmgr?status.svg)](https://godoc.org/github.com/adrianosela/sslmgr) [![Mentioned in Awesome Go](https://awesome.re/mentioned-badge.svg)](https://github.com/avelino/awesome-go#security)
+- [**spoof**](https://github.com/adrianosela/spoof) - A command line utility for injecting spoofed frames into a network [![Documentation](https://godoc.org/github.com/adrianosela/spoof?status.svg)](https://godoc.org/github.com/adrianosela/spoof)
+- [**sslmgr**](https://github.com/adrianosela/sslmgr) - A layer of abstraction the around acme/autocert certificate manager [![Documentation](https://godoc.org/github.com/adrianosela/sslmgr?status.svg)](https://godoc.org/github.com/adrianosela/sslmgr) [![Mentioned in Awesome Go](https://awesome.re/mentioned-badge.svg)](https://github.com/avelino/awesome-go#security)
 
 Education
 ---------
