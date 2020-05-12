@@ -68,14 +68,8 @@ func mdHandler(file string) http.Handler {
 		log.Fatalf("could not execute html markdown body template: %s", err)
 	}
 
-	tmp, err := ioutil.TempFile(".", "index.html")
-	if err != nil {
-		log.Fatalf("could not write temporary file: %s", err)
-	}
-
-	if _, err := tmp.Write(buff.Bytes()); err != nil {
-		log.Fatal(err)
-	}
-
-	return fileHandler(tmp.Name())
+	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		w.Header().Set("Content-Type", "text/html")
+		w.Write(buff.Bytes())
+	})
 }
