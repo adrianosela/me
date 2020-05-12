@@ -1,6 +1,7 @@
 package main
 
 import (
+	"bytes"
 	"html/template"
 	"io/ioutil"
 	"log"
@@ -47,6 +48,12 @@ func fileHandler(file string) http.Handler {
 }
 
 func mdHandler(file string) http.Handler {
+	// build template object for HTML with md body
+	t, err := template.New("md").Parse(templ)
+	if err != nil {
+		log.Fatalf("could not build html with markdown body template: %s", err)
+	}
+
 	md, err := ioutil.ReadFile(file)
 	if err != nil {
 		log.Fatalf("could not read markdown file: %s", err)
@@ -56,13 +63,14 @@ func mdHandler(file string) http.Handler {
 	processed := blackfriday.Run(md)
 	html := template.HTML(processed)
 
-	// build template object for HTML with md body
-	t, err := template.New("md").Parse(templ)
-	if err != nil {
-		log.Fatalf("could not build html with markdown body template: %s", err)
+	var buff bytes.Buffer
+	if err := t.Execute(&buff, struct{ HTML *template.HTML }{HTML: &html}); err != nil {
+		log.Fatalf("could not execute html markdown body template: %s", err)
 	}
 
 	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		t.Execute(w, struct{ HTML *template.HTML }{HTML: &html})
+		w.Header().Set("Content-Type", "text/html")
+		log.Println(string(buff.Bytes()))
+		w.Write(buff.Bytes())
 	})
 }
