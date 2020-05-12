@@ -17,8 +17,8 @@ func main() {
 		port = defaultPort
 	}
 
-	// set in app.yaml for Google App Engine,
-	// or in ENV when running locally
+	// when running on Google App Engine,
+	// env FILENAME must be defined in app.yaml
 	filename := os.Getenv("FILENAME")
 	var h http.Handler
 	switch filepath.Ext(filename) {
