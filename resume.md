@@ -14,7 +14,7 @@
 
 **Networking:** TCP/IP, DNS, TLS, BGP, in-depth understanding of the OSI structure, Linux implementation of TCP/IP suite, Berkeley Packet Filter (BPF), and experience writing reliable data transport protocols (i.e. a self-written TCP)
 
-**Cloud Computing & Services:** Experience with all of AWS, GCP, and Azure, microservice architecture design, serverless (i.e. AWS Lambda, GCP Cloud Functions
+**Cloud Computing & Services:** Experience with all of AWS, GCP, and Azure, microservice architecture design, serverless (i.e. AWS Lambda, GCP Cloud Functions)
 
 **Version Control & CI/CD:** Git, self-hosted Jenkins, Concourse
 
