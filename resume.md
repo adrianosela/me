@@ -3,7 +3,7 @@ Adriano Sela Aviles
 
 ##### Motivated Computer Engineering graduate; passionate for learning. Experienced with ownership of globally distributed full stack services including the network, DNS, monitoring and logging, the platform, the API & CLI code bases, documentation, and the infrastructure pieces that live in cloud providers.
 
-###### [ adriano.selaviles@gmail.com ] . [ 778 681 3106 ]
+###### [ adriano.selaviles@gmail.com ] [ 778 681 3106 ]
 
 Skills
 ------
