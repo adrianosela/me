@@ -28,6 +28,7 @@ func main() {
 		h = fileHandler(filename)
 	}
 
+	log.Printf("serving %s on %s\n", filename, port)
 	err := http.ListenAndServe(port, h)
 	if err != nil {
 		log.Fatal(err)

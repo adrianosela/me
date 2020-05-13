@@ -7,7 +7,7 @@ import (
 	"log"
 	"net/http"
 
-	blackfriday "gopkg.in/russross/blackfriday.v2"
+	blackfriday "github.com/russross/blackfriday/v2"
 )
 
 // HTML template for a markdown body sourced from:
