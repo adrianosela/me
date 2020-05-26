@@ -79,5 +79,5 @@
 
 **BASC in Computer Engineering, University of British Columbia University** (2015-2020, Vancouver BC)
 
-- Dean's Honour List all 4 years
+- Dean's Honour List all 4 academic years
 - Coop Status: completed 4/4 (mandatory) work terms + 1 (additional) work term
