@@ -36,11 +36,11 @@
 
 #### **Cloud Infra. Engineering Intern, Cisco Systems Inc.** <sub><sup>(May 2017 - Sept. 2018, Vancouver BC)</sup></sub>
 
-- Collaborately built Vinz, a PKI for provisioning Cisco servers with SSL certificates via programmatic API calls. The API is capable of delivering certificates and metadata within seconds of a sequest.
+- Collaborately built Vinz, a PKI (and client libraries) for provisioning Cisco servers with SSL certificates via programmatic API calls. The API is capable of delivering certificates and metadata within seconds of a sequest.
 
 > Technologies: Go, DNS in depth, internal platforms and tooling
 
-- Implemented an OpenID Connect identity provider in Golang and integrated it with AWS IAM (so as to provision new accounts for employees) as well as several other internal services which consumed our JSON web token
+- Implemented an OpenID Connect identity provider in Golang and integrated it with AWS IAM as well as several other internal services which consumed our JSON web tokens (i.e. a compute platform, a metrics & logging service, ...)
 
 > Technologies: Go, OpenID, AWS {IAM, DynamoDB, Lambda}, Terraform, Docker + Kubernetes, internal platforms and tooling
 
@@ -54,11 +54,26 @@
 
 ## Projects
 
-- [**iprepd-firewall**](https://github.com/adrianosela/iprepd-firewall) - seamless IP reputation based application-layer firewall for services written in Go [![Documentation](https://godoc.org/github.com/adrianosela/iprepd-firewall?status.svg)](https://godoc.org/github.com/adrianosela/iprepd-firewall/fwmw)
+- [**rdtp**](https://github.com/adrianosela/rdtp) - cross OS transport layer service implemented as a daemon process [![Documentation](https://godoc.org/github.com/adrianosela/rdtp?status.svg)](https://godoc.org/github.com/adrianosela/rdtp)
 - [**padl**](https://github.com/adrianosela/padl) - secrets management as-a-service API [![Documentation](https://godoc.org/github.com/adrianosela/padl?status.svg)](https://godoc.org/github.com/adrianosela/padl)
+- [**multikey**](https://github.com/adrianosela/multikey) - library for implementing complex encryption schemes leveraging Shamir's Secret Sharing algorithm [![Documentation](https://godoc.org/github.com/adrianosela/multikey?status.svg)](https://godoc.org/github.com/adrianosela/multikey)
 - [**spoof**](https://github.com/adrianosela/spoof) - command line utility for injecting spoofed frames into a network [![Documentation](https://godoc.org/github.com/adrianosela/spoof?status.svg)](https://godoc.org/github.com/adrianosela/spoof)
-- [**sslmgr**](https://github.com/adrianosela/sslmgr) - layer of abstraction the around acme/autocert certificate manager [![Documentation](https://godoc.org/github.com/adrianosela/sslmgr?status.svg)](https://godoc.org/github.com/adrianosela/sslmgr) [![Mentioned in Awesome Go](https://awesome.re/mentioned-badge.svg)](https://github.com/avelino/awesome-go#security)
-
+- [**sslmgr**](https://github.com/adrianosela/sslmgr) - layer of abstraction the around acme/autocert certificate manager [![Mentioned in Awesome Go](https://awesome.re/mentioned-badge.svg)](https://github.com/avelino/awesome-go#security) [![Documentation](https://godoc.org/github.com/adrianosela/sslmgr?status.svg)](https://godoc.org/github.com/adrianosela/sslmgr)
+- [**certcache**](https://github.com/adrianosela/certcache) - a collection of useful implementations of the acme/certcache interface for common datastores (i.e. AWS DynamoDB, MongoDB, S3, and Google Firestore) [![Documentation](https://godoc.org/github.com/adrianosela/sslmgr?status.svg)](https://godoc.org/github.com/adrianosela/sslmgr)
+- [**auth**](https://github.com/adrianosela/auth) - experimenting with RSA Keys, JWT Tokens, and OpenID Connect [![Documentation](https://godoc.org/github.com/adrianosela/auth?status.svg)](https://godoc.org/github.com/adrianosela/auth)
+- [**keystore**](https://github.com/adrianosela/keystore) - filesystem Keystore with a REST API [![Documentation](https://godoc.org/github.com/adrianosela/keystore?status.svg)](https://godoc.org/github.com/adrianosela/keystore)
+- [**cliprepd**](https://github.com/adrianosela/cliprepd) - command line client for Mozilla's IPrepd API [![Documentation](https://godoc.org/github.com/adrianosela/cliprepd?status.svg)](https://godoc.org/github.com/adrianosela/cliprepd)
+- [**iprepd-firewall**](https://github.com/adrianosela/iprepd-firewall) - seamless IP reputation based application-layer firewall for services written in Go using a (Mozilla) IPrepd server [![Documentation](https://godoc.org/github.com/adrianosela/iprepd-firewall?status.svg)](https://godoc.org/github.com/adrianosela/iprepd-firewall/fwmw)
+- [**ecdh**](https://github.com/adrianosela/ecdh) - elliptic curve diffie-hellman key exchange library in Go [![Documentation](https://godoc.org/github.com/adrianosela/ecdh?status.svg)](https://godoc.org/github.com/adrianosela/ecdh)
+- [**botnet**](https://github.com/adrianosela/botnet) - command line managed bot master with a websockets based Command and Control (C&C) server [![Documentation](https://godoc.org/github.com/adrianosela/botnet?status.svg)](https://godoc.org/github.com/adrianosela/botnet)
+- [**GoFaceTrainer**](https://github.com/adrianosela/GoFaceTrainer) - train a facial recognition model in Go using OpenCV and Machine Box [![Documentation](https://godoc.org/github.com/adrianosela/GoFaceTrainer?status.svg)](https://godoc.org/github.com/adrianosela/GoFaceTrainer)
+- [**GoAway**](https://github.com/adrianosela/GoAway) - An OpenCV based motion detector and utilities in Go [![Documentation](https://godoc.org/github.com/adrianosela/GoAway?status.svg)](https://godoc.org/github.com/adrianosela/GoAway)
+- [**streamer**](https://github.com/adrianosela/streamer) - python3 video streaming client and server implementing RSTP and RTP
+- [**traceroute**](https://github.com/adrianosela/traceroute) - homemade implementation of a UDP traceroute program in python 
+- [**ping**](https://github.com/adrianosela/traceroute) - homemade implementation of a an ICMP pinger program in python
+- [**neuron**](https://github.com/adrianosela/neuron) - example predictive neural network in python
+- [**mapp**](https://github.com/adrianosela/mapp) - events lookup mobile app written in Dart and Node JS back-end
+- [**ovf**](https://github.com/adrianosela/ovf) - example stack overflow exploit in C
 
 ## Education
 
