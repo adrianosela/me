@@ -2,7 +2,7 @@
 
 ###### <p align=center> [ adriano.selaviles@gmail.com ] [ 778 681 3106 ] </p>
 
-##### Motivated Computer Engineering graduate; passionate for learning. Experienced with ownership of globally distributed full stack services including the network, DNS, monitoring and logging, the platform, the API & CLI code bases, documentation, and the infrastructure pieces that live in cloud providers.
+##### Motivated Computer Engineering graduate; passionate for learning. Experienced with ownership of globally distributed full stack services including the network, DNS, monitoring and logging, the platform, API & CLI code bases, documentation, and the infrastructure pieces that live in cloud providers.
 
 ## Skills
 
@@ -23,6 +23,13 @@
 **Security:** Deep understanding of symmetric and asymmetric key encryption, block ciphers, hashing functions, key sharing (e.g. elliptic curve Diffie-Hellman), experience writing public key infrastructures (PKIs). Attended internal Cisco R00tcamp - an intensive 7-day bootcamp on Kali Linux tools (e.g. Metasploit framework)
 
 ## Experience
+
+#### **Software Engineer, Amazon Inc.** <sub><sup>(July 2020 - present, Vancouver BC)</sup></sub>
+
+- Creating customer experiences (CX) for the front page of the Amazon India retail site (Amazon.in) and other gateways world-wide, impacting hundreds of millions of customers across the globe
+- Ownership of services and web assets, running CI/CD, monitoring, and logging
+
+> Technologies: Java, JavaScript, AWS
 
 #### **Operations Security Intern, Mozilla Corporation** <sub><sup>(May 2019 - Sept. 2019, San Francisco CA)</sup></sub>
 
