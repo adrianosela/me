@@ -24,14 +24,14 @@
 
 ## Experience
 
-#### **Software Engineer, Amazon Inc.** <sub><sup>(July 2020 - present, Vancouver BC)</sup></sub>
+#### **Software Engineer, Amazon** <sub><sup>(July 2020 - present, Vancouver BC)</sup></sub>
 
 - Creating customer experiences (CX) for the front page of the Amazon India retail site (Amazon.in) and other gateways world-wide, impacting hundreds of millions of customers across the globe
 - Ownership of services and web assets, running CI/CD, monitoring, and logging
 
 > Technologies: Java, JavaScript, AWS
 
-#### **Operations Security Intern, Mozilla Corporation** <sub><sup>(May 2019 - Sept. 2019, San Francisco CA)</sup></sub>
+#### **Operations Security Intern, Mozilla** <sub><sup>(May 2019 - Sept. 2019, San Francisco CA)</sup></sub>
 
 - Apache Beam pipeline and cloud architecture design for processing AWS GuardDuty and GCP Event Threat Detection findings as part of the [FoxSec pipeline](https://github.com/mozilla-services/foxsec-pipeline), a collection of data processing Beam pipelines which alert on relevant threats to Firefox Infrastructure.
 
