@@ -31,7 +31,7 @@
 
 > Technologies: Java, JavaScript, AWS
 
-#### **Operations Security Intern, Mozilla** <sub><sup>(May 2019 - Sept. 2019, San Francisco CA)</sup></sub>
+#### **Security Operations Intern, Mozilla** <sub><sup>(May 2019 - Sept. 2019, San Francisco CA)</sup></sub>
 
 - Apache Beam pipeline and cloud architecture design for processing AWS GuardDuty and GCP Event Threat Detection findings as part of the [FoxSec pipeline](https://github.com/mozilla-services/foxsec-pipeline), a collection of data processing Beam pipelines which alert on relevant threats to Firefox Infrastructure.
 
