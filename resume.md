@@ -24,7 +24,15 @@
 
 ## Experience
 
-#### **Software Engineer, Amazon** <sub><sup>(July 2020 - present, Vancouver BC)</sup></sub>
+#### **Software Engineer, Amazon Web Services** <sub><sup>(January 2021 - present, Vancouver BC)</sup></sub>
+
+- Building and maintaing several threat detection microservices at AWS scale
+- Continuously designing and implementing features for AWS GuardDuty
+- Collaborating with security engineers to harden systems against novel threats
+
+> Technologies: Java, AWS, Linux, Networking primitives
+
+#### **Software Engineer, Amazon** <sub><sup>(July 2020 - Dec. 2021, Vancouver BC)</sup></sub>
 
 - Creating customer experiences (CX) for the front page of the Amazon India retail site (Amazon.in) and other gateways world-wide, impacting hundreds of millions of customers across the globe
 - Ownership of services and web assets, running CI/CD, monitoring, and logging
