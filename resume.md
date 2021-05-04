@@ -51,7 +51,7 @@
 
 #### **Cloud Infra. Engineering Intern, Cisco Systems Inc.** <sub><sup>(May 2017 - Sept. 2018, Vancouver BC)</sup></sub>
 
-- Collaborately built Vinz, a PKI (and client libraries) for provisioning Cisco servers with SSL certificates via programmatic API calls. The API is capable of delivering certificates and metadata within seconds of a sequest.
+- Collaborately built Vinz, a PKI (and client libraries) for provisioning Cisco servers with SSL certificates via programmatic API calls. The API is capable of delivering certificates and metadata within seconds of a request.
 
 > Technologies: Go, DNS in depth, internal platforms and tooling
 
