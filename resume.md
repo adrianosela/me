@@ -28,7 +28,7 @@
 
 - Building and maintaing several threat detection microservices at AWS scale
 - Continuously designing and implementing features for AWS GuardDuty
-- Collaborating with security engineers to harden systems against novel threats
+- Hardening systems against increasingly sophisticated security threats
 
 > Technologies: Java, AWS, Linux, Networking primitives
 
