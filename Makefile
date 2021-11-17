@@ -8,3 +8,7 @@ run: build
 
 build:
 	go build -o $(NAME)
+
+auth:
+	gcloud auth login
+	gcloud config set project resume-275302
