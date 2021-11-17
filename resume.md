@@ -10,13 +10,13 @@
 
 **Programming:** Go, Java, C/C++, Python
 
-**Systems & Infrastructure:** Docker (+ docker-compose), Kubernetes, Terraform, Vagrant, AWS EC2 and Google Compute Engine
+**Systems & Infrastructure:** Docker/docker-compose, Kubernetes, Terraform, Vagrant, AWS EC2 and Google Compute Engine
 
 **Networking:** TCP/IP, DNS, TLS, BGP, in-depth understanding of the OSI structure, Linux implementation of TCP/IP suite, Berkeley Packet Filter (BPF), and experience writing reliable data transport protocols (i.e. a self-written TCP)
 
 **Cloud Computing & Services:** Experience with all of AWS, GCP, and Azure, microservice architecture design, serverless (i.e. AWS Lambda, GCP Cloud Functions)
 
-**Version Control & CI/CD:** Git, self-hosted Jenkins, Concourse
+**Version Control & CI/CD:** Git, Jenkins, Concourse, AWS CodeBuild + CodeDeploy
 
 **Identity & Access Management:** IAM flows (i.e. OAuth2.0, SAML), experience writing OpenID Connect identity providers and integrating with AWS IAM
 
@@ -24,20 +24,25 @@
 
 ## Experience
 
-#### **Software Engineer, Amazon Web Services** <sub><sup>(January 2021 - present, Vancouver BC)</sup></sub>
+#### **Application Security Engineer, Cisco Systems Inc.** <sub><sup>(August 2021 - present, Vancouver BC)</sup></sub>
 
-- Building and maintaing several threat detection microservices at AWS scale
-- Continuously designing and implementing features for AWS GuardDuty
-- Hardening systems against increasingly sophisticated security threats
+- Driving the design, architecture, and development of large-scale, globally distributed security software applications and services
+- Researching, designing, building, and operating "highly-available" security software services at scale, using Golang, Bash, and other languages/tools as fits the situation's needs
+- Participating in and driving threat-modelling and risk-management of Cisco's infrastructure and products
+- Supporting internal Cisco customers by extending existing services and creating new ones
+- Developing solutions for computer networking and orchestration problems with avaiiability, scale, security, and performance in mind
 
-> Technologies: Java, AWS, Linux, Networking primitives
+> Technologies: Go, Bash, Python, AWS, Jenkins, Linux
 
-#### **Software Engineer, Amazon** <sub><sup>(July 2020 - Dec. 2021, Vancouver BC)</sup></sub>
+#### **Software Engineer, Amazon Web Services** <sub><sup>(July 2020 - July 2021, Vancouver BC)</sup></sub>
 
-- Creating customer experiences (CX) for the front page of the Amazon India retail site (Amazon.in) and other gateways world-wide, impacting hundreds of millions of customers across the globe
-- Ownership of services and web assets, running CI/CD, monitoring, and logging
+- Built and maintained several threat detection microservices at AWS scale
+- Continuously designed and implemented features for AWS GuardDuty
+- Hardened systems against increasingly sophisticated security threats
+- Took part in launching the GuardDuty service to multiple AWS regions
+- Provided 24/7 on-call support
 
-> Technologies: Java, JavaScript, AWS
+> Technologies: Java, JavaScript, AWS, Linux, Networking primitives
 
 #### **Security Operations Intern, Mozilla** <sub><sup>(May 2019 - Sept. 2019, San Francisco CA)</sup></sub>
 
