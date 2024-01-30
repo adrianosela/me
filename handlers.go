@@ -3,9 +3,9 @@ package main
 import (
 	"bytes"
 	"html/template"
-	"io/ioutil"
 	"log"
 	"net/http"
+	"os"
 
 	blackfriday "github.com/russross/blackfriday/v2"
 )
@@ -54,7 +54,7 @@ func mdHandler(file string) http.Handler {
 		log.Fatalf("could not build html with markdown body template: %s", err)
 	}
 
-	md, err := ioutil.ReadFile(file)
+	md, err := os.ReadFile(file)
 	if err != nil {
 		log.Fatalf("could not read markdown file: %s", err)
 	}

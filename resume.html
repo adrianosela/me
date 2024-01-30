@@ -26,13 +26,13 @@
 
 <h6><p align=center> [ adriano.selaviles@gmail.com ] [ 778 681 3106 ] </p></h6>
 
-<h5>Motivated Computer Engineering graduate; passionate for learning. Experienced with ownership of globally distributed full stack services including the network, DNS, monitoring and logging, the platform, API &amp; CLI code bases, documentation, and the infrastructure pieces that live in cloud providers.</h5>
+<h5>Motivated Senior Software and Security Engineer with a passion for learning. Experienced with ownership of globally distributed full stack services including the network, DNS, monitoring and logging, the platform, API &amp; client code bases, documentation, and the infrastructure pieces that live in cloud providers.</h5>
 
 <h2>Skills</h2>
 
 <p><strong>Scripting:</strong> Bash (+ awk/sed/grep), Makefile, Python</p>
 
-<p><strong>Programming:</strong> Go, Java, C/C++, Python</p>
+<p><strong>Programming:</strong> Go, Java, C/C++, Python, Lua</p>
 
 <p><strong>Systems &amp; Infrastructure:</strong> Docker/docker-compose, Kubernetes, Terraform, Vagrant, AWS EC2 and Google Compute Engine</p>
 
@@ -40,22 +40,49 @@
 
 <p><strong>Cloud Computing &amp; Services:</strong> Experience with all of AWS, GCP, and Azure, microservice architecture design, serverless (i.e. AWS Lambda, GCP Cloud Functions)</p>
 
-<p><strong>Version Control &amp; CI/CD:</strong> Git, Jenkins, Concourse, AWS CodeBuild + CodeDeploy</p>
+<p><strong>Version Control &amp; CI/CD:</strong> Git, Jenkins, Concourse, AWS CodeBuild + CodeDeploy, GitHub Actions</p>
 
-<p><strong>Identity &amp; Access Management:</strong> IAM flows (i.e. OAuth2.0, SAML), experience writing OpenID Connect identity providers and integrating with AWS IAM</p>
+<p><strong>Identity &amp; Access Management:</strong> IAM flows (i.e. OAuth2.0, SAML), experience writing custom identity providers</p>
 
 <p><strong>Security:</strong> Deep understanding of symmetric and asymmetric key encryption, block ciphers, hashing functions, key sharing (e.g. elliptic curve Diffie-Hellman), experience writing public key infrastructures (PKIs). Attended internal Cisco R00tcamp - an intensive 7-day bootcamp on Kali Linux tools (e.g. Metasploit framework)</p>
 
 <h2>Experience</h2>
 
-<h4><strong>Application Security Engineer, Cisco Systems Inc.</strong> <sub><sup>(August 2021 - present, Vancouver BC)</sup></sub></h4>
+<h4><strong>Senior Software Engineer / Security, Border0 Inc.</strong> <sub><sup>(December 2022 - present, Vancouver BC)</sup></sub></h4>
+
+<ul>
+<li>Drove several security features from conception to completion including the introduction of robust credential stuffing mitigations and more secure authentication and authorization flows</li>
+<li>Directly responsible for triaging and addressing 1st and 3rd party software vulnerabilites</li>
+<li>Lead internal penetration testing and coordinated external penetration testing</li>
+<li>Wrote software to integrate with identity providers through protocols such as OAuth, OIDC, SAML, specific provider APIs (e.g. Okta, Google Workspace), and directory synchronization protocols e.g. SCIM, LDAP</li>
+<li>Full stack development including Go and Python back-end applications, JavaScript front-end applications, reverse proxies programmed in Lua, and the infrastructure pieces that live in various cloud providers (managed via infrastructure-as-code)</li>
+</ul>
+
+<blockquote>
+<p>Technologies: Go, Bash, Lua, AWS, GCP, Azure, Terraform, CloudFormation, Linux</p>
+</blockquote>
+
+<h4><strong>Senior Application Security Engineer, Thumbtack</strong> <sub><sup>(May 2022 - November 2022, Vancouver BC)</sup></sub></h4>
+
+<ul>
+<li>Lead security incident response efforts and coordinated external penetration testing</li>
+<li>Primary recipient and triager of company-wide &ldquo;responsible disclosure&rdquo; mailbox</li>
+<li>Lead the introduction of tools for static and dynamic analysis of software through a company-wide week-long event to instrument the relevant codebases with the appropriate tooling</li>
+<li>Performed on-demand security design and architecture reviews</li>
+</ul>
+
+<blockquote>
+<p>Technologies: Go, Bash, Lua, AWS, Linux</p>
+</blockquote>
+
+<h4><strong>Senior Application Security Engineer, Cisco Systems Inc.</strong> <sub><sup>(August 2021 - May 2022, Vancouver BC)</sup></sub></h4>
 
 <ul>
 <li>Driving the design, architecture, and development of large-scale, globally distributed security software applications and services</li>
 <li>Researching, designing, building, and operating &ldquo;highly-available&rdquo; security software services at scale, using Golang, Bash, and other languages/tools as fits the situation&rsquo;s needs</li>
 <li>Participating in and driving threat-modelling and risk-management of Cisco&rsquo;s infrastructure and products</li>
 <li>Supporting internal Cisco customers by extending existing services and creating new ones</li>
-<li>Developing solutions for computer networking and orchestration problems with avaiiability, scale, security, and performance in mind</li>
+<li>Developing solutions for computer networking and orchestration problems with availability, scale, security, and performance in mind</li>
 </ul>
 
 <blockquote>
@@ -131,11 +158,11 @@
 <h2>Projects</h2>
 
 <ul>
+<li><a href="https://github.com/adrianosela/sslmgr"><strong>sslmgr</strong></a> - layer of abstraction the around acme/autocert certificate manager <a href="https://github.com/avelino/awesome-go#security"><img src="https://awesome.re/mentioned-badge.svg" alt="Mentioned in Awesome Go" /></a> <a href="https://godoc.org/github.com/adrianosela/sslmgr"><img src="https://godoc.org/github.com/adrianosela/sslmgr?status.svg" alt="Documentation" /></a></li>
 <li><a href="https://github.com/adrianosela/rdtp"><strong>rdtp</strong></a> - cross OS transport layer service implemented as a daemon process <a href="https://godoc.org/github.com/adrianosela/rdtp"><img src="https://godoc.org/github.com/adrianosela/rdtp?status.svg" alt="Documentation" /></a></li>
 <li><a href="https://github.com/adrianosela/padl"><strong>padl</strong></a> - secrets management as-a-service API <a href="https://godoc.org/github.com/adrianosela/padl"><img src="https://godoc.org/github.com/adrianosela/padl?status.svg" alt="Documentation" /></a></li>
 <li><a href="https://github.com/adrianosela/multikey"><strong>multikey</strong></a> - library for implementing complex encryption schemes leveraging Shamir&rsquo;s Secret Sharing algorithm <a href="https://godoc.org/github.com/adrianosela/multikey"><img src="https://godoc.org/github.com/adrianosela/multikey?status.svg" alt="Documentation" /></a></li>
 <li><a href="https://github.com/adrianosela/spoof"><strong>spoof</strong></a> - command line utility for injecting spoofed frames into a network <a href="https://godoc.org/github.com/adrianosela/spoof"><img src="https://godoc.org/github.com/adrianosela/spoof?status.svg" alt="Documentation" /></a></li>
-<li><a href="https://github.com/adrianosela/sslmgr"><strong>sslmgr</strong></a> - layer of abstraction the around acme/autocert certificate manager <a href="https://github.com/avelino/awesome-go#security"><img src="https://awesome.re/mentioned-badge.svg" alt="Mentioned in Awesome Go" /></a> <a href="https://godoc.org/github.com/adrianosela/sslmgr"><img src="https://godoc.org/github.com/adrianosela/sslmgr?status.svg" alt="Documentation" /></a></li>
 <li><a href="https://github.com/adrianosela/certcache"><strong>certcache</strong></a> - a collection of useful implementations of the acme/certcache interface for common datastores (i.e. AWS DynamoDB, MongoDB, S3, and Google Firestore) <a href="https://godoc.org/github.com/adrianosela/sslmgr"><img src="https://godoc.org/github.com/adrianosela/sslmgr?status.svg" alt="Documentation" /></a></li>
 <li><a href="https://github.com/adrianosela/auth"><strong>auth</strong></a> - experimenting with RSA Keys, JWT Tokens, and OpenID Connect <a href="https://godoc.org/github.com/adrianosela/auth"><img src="https://godoc.org/github.com/adrianosela/auth?status.svg" alt="Documentation" /></a></li>
 <li><a href="https://github.com/adrianosela/keystore"><strong>keystore</strong></a> - filesystem Keystore with a REST API <a href="https://godoc.org/github.com/adrianosela/keystore"><img src="https://godoc.org/github.com/adrianosela/keystore?status.svg" alt="Documentation" /></a></li>
@@ -155,7 +182,7 @@
 
 <h2>Education</h2>
 
-<p><strong>BASC in Computer Engineering, University of British Columbia University</strong> (2015-2020, Vancouver BC)</p>
+<p><strong>BASc in Computer Engineering, University of British Columbia University</strong> (2015-2020, Vancouver BC)</p>
 
 <ul>
 <li>Dean&rsquo;s Honour List all 4 academic years</li>

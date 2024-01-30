@@ -2,13 +2,13 @@
 
 ###### <p align=center> [ adriano.selaviles@gmail.com ] [ 778 681 3106 ] </p>
 
-##### Motivated Computer Engineering graduate; passionate for learning. Experienced with ownership of globally distributed full stack services including the network, DNS, monitoring and logging, the platform, API & CLI code bases, documentation, and the infrastructure pieces that live in cloud providers.
+##### Motivated Senior Software and Security Engineer with a passion for learning. Experienced with ownership of globally distributed full stack services including the network, DNS, monitoring and logging, the platform, API & client code bases, documentation, and the infrastructure pieces that live in cloud providers.
 
 ## Skills
 
 **Scripting:** Bash (+ awk/sed/grep), Makefile, Python
 
-**Programming:** Go, Java, C/C++, Python
+**Programming:** Go, Java, C/C++, Python, Lua
 
 **Systems & Infrastructure:** Docker/docker-compose, Kubernetes, Terraform, Vagrant, AWS EC2 and Google Compute Engine
 
@@ -16,21 +16,40 @@
 
 **Cloud Computing & Services:** Experience with all of AWS, GCP, and Azure, microservice architecture design, serverless (i.e. AWS Lambda, GCP Cloud Functions)
 
-**Version Control & CI/CD:** Git, Jenkins, Concourse, AWS CodeBuild + CodeDeploy
+**Version Control & CI/CD:** Git, Jenkins, Concourse, AWS CodeBuild + CodeDeploy, GitHub Actions
 
-**Identity & Access Management:** IAM flows (i.e. OAuth2.0, SAML), experience writing OpenID Connect identity providers and integrating with AWS IAM
+**Identity & Access Management:** IAM flows (i.e. OAuth2.0, SAML), experience writing custom identity providers
 
 **Security:** Deep understanding of symmetric and asymmetric key encryption, block ciphers, hashing functions, key sharing (e.g. elliptic curve Diffie-Hellman), experience writing public key infrastructures (PKIs). Attended internal Cisco R00tcamp - an intensive 7-day bootcamp on Kali Linux tools (e.g. Metasploit framework)
 
 ## Experience
 
-#### **Application Security Engineer, Cisco Systems Inc.** <sub><sup>(August 2021 - present, Vancouver BC)</sup></sub>
+#### **Senior Software Engineer / Security, Border0 Inc.** <sub><sup>(December 2022 - present, Vancouver BC)</sup></sub>
+
+- Drove several security features from conception to completion including the introduction of robust credential stuffing mitigations and more secure authentication and authorization flows
+- Directly responsible for triaging and addressing 1st and 3rd party software vulnerabilites
+- Lead internal penetration testing and coordinated external penetration testing
+- Wrote software to integrate with identity providers through protocols such as OAuth, OIDC, SAML, specific provider APIs (e.g. Okta, Google Workspace), and directory synchronization protocols e.g. SCIM, LDAP
+- Full stack development including Go and Python back-end applications, JavaScript front-end applications, reverse proxies programmed in Lua, and the infrastructure pieces that live in various cloud providers (managed via infrastructure-as-code)
+
+> Technologies: Go, Bash, Lua, AWS, GCP, Azure, Terraform, CloudFormation, Linux
+
+#### **Senior Application Security Engineer, Thumbtack** <sub><sup>(May 2022 - November 2022, Vancouver BC)</sup></sub>
+
+- Lead security incident response efforts and coordinated external penetration testing
+- Primary recipient and triager of company-wide "responsible disclosure" mailbox
+- Lead the introduction of tools for static and dynamic analysis of software through a company-wide week-long event to instrument the relevant codebases with the appropriate tooling
+- Performed on-demand security design and architecture reviews
+
+> Technologies: Go, Bash, Lua, AWS, Linux
+
+#### **Senior Application Security Engineer, Cisco Systems Inc.** <sub><sup>(August 2021 - May 2022, Vancouver BC)</sup></sub>
 
 - Driving the design, architecture, and development of large-scale, globally distributed security software applications and services
 - Researching, designing, building, and operating "highly-available" security software services at scale, using Golang, Bash, and other languages/tools as fits the situation's needs
 - Participating in and driving threat-modelling and risk-management of Cisco's infrastructure and products
 - Supporting internal Cisco customers by extending existing services and creating new ones
-- Developing solutions for computer networking and orchestration problems with avaiiability, scale, security, and performance in mind
+- Developing solutions for computer networking and orchestration problems with availability, scale, security, and performance in mind
 
 > Technologies: Go, Bash, Python, AWS, Jenkins, Linux
 
@@ -74,11 +93,11 @@
 
 ## Projects
 
+- [**sslmgr**](https://github.com/adrianosela/sslmgr) - layer of abstraction the around acme/autocert certificate manager [![Mentioned in Awesome Go](https://awesome.re/mentioned-badge.svg)](https://github.com/avelino/awesome-go#security) [![Documentation](https://godoc.org/github.com/adrianosela/sslmgr?status.svg)](https://godoc.org/github.com/adrianosela/sslmgr)
 - [**rdtp**](https://github.com/adrianosela/rdtp) - cross OS transport layer service implemented as a daemon process [![Documentation](https://godoc.org/github.com/adrianosela/rdtp?status.svg)](https://godoc.org/github.com/adrianosela/rdtp)
 - [**padl**](https://github.com/adrianosela/padl) - secrets management as-a-service API [![Documentation](https://godoc.org/github.com/adrianosela/padl?status.svg)](https://godoc.org/github.com/adrianosela/padl)
 - [**multikey**](https://github.com/adrianosela/multikey) - library for implementing complex encryption schemes leveraging Shamir's Secret Sharing algorithm [![Documentation](https://godoc.org/github.com/adrianosela/multikey?status.svg)](https://godoc.org/github.com/adrianosela/multikey)
 - [**spoof**](https://github.com/adrianosela/spoof) - command line utility for injecting spoofed frames into a network [![Documentation](https://godoc.org/github.com/adrianosela/spoof?status.svg)](https://godoc.org/github.com/adrianosela/spoof)
-- [**sslmgr**](https://github.com/adrianosela/sslmgr) - layer of abstraction the around acme/autocert certificate manager [![Mentioned in Awesome Go](https://awesome.re/mentioned-badge.svg)](https://github.com/avelino/awesome-go#security) [![Documentation](https://godoc.org/github.com/adrianosela/sslmgr?status.svg)](https://godoc.org/github.com/adrianosela/sslmgr)
 - [**certcache**](https://github.com/adrianosela/certcache) - a collection of useful implementations of the acme/certcache interface for common datastores (i.e. AWS DynamoDB, MongoDB, S3, and Google Firestore) [![Documentation](https://godoc.org/github.com/adrianosela/sslmgr?status.svg)](https://godoc.org/github.com/adrianosela/sslmgr)
 - [**auth**](https://github.com/adrianosela/auth) - experimenting with RSA Keys, JWT Tokens, and OpenID Connect [![Documentation](https://godoc.org/github.com/adrianosela/auth?status.svg)](https://godoc.org/github.com/adrianosela/auth)
 - [**keystore**](https://github.com/adrianosela/keystore) - filesystem Keystore with a REST API [![Documentation](https://godoc.org/github.com/adrianosela/keystore?status.svg)](https://godoc.org/github.com/adrianosela/keystore)
@@ -97,7 +116,7 @@
 
 ## Education
 
-**BASC in Computer Engineering, University of British Columbia University** (2015-2020, Vancouver BC)
+**BASc in Computer Engineering, University of British Columbia University** (2015-2020, Vancouver BC)
 
 - Dean's Honour List all 4 academic years
 - Coop Status: completed 4/4 (mandatory) work terms + 1 (additional) work term
